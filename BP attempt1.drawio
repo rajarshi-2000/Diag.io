@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-01T16:02:45.427Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36 Edg/80.0.361.69" etag="5m1JDEg3ojDbEtWDGdeL" version="12.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-04-01T16:06:22.252Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36 Edg/80.0.361.69" etag="_v4OSODcabfhS8HJ8W2Y" version="12.9.6" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1038" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -10,17 +10,29 @@
         <mxCell id="h9ObnwM4JFQ_jB0peWJt-1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="50" y="300" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="h9ObnwM4JFQ_jB0peWJt-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="h9ObnwM4JFQ_jB0peWJt-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="h9ObnwM4JFQ_jB0peWJt-2" target="h9ObnwM4JFQ_jB0peWJt-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h9ObnwM4JFQ_jB0peWJt-2" value="Get List of emails as initial Dataset" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="140" y="290" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="h9ObnwM4JFQ_jB0peWJt-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="h9ObnwM4JFQ_jB0peWJt-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="h9ObnwM4JFQ_jB0peWJt-3" target="h9ObnwM4JFQ_jB0peWJt-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h9ObnwM4JFQ_jB0peWJt-3" value="Check Validity on special website" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="290" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="h9ObnwM4JFQ_jB0peWJt-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="h9ObnwM4JFQ_jB0peWJt-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="h9ObnwM4JFQ_jB0peWJt-4" target="h9ObnwM4JFQ_jB0peWJt-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h9ObnwM4JFQ_jB0peWJt-4" value="Put acquired data into excel spreadsheet" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="550" y="290" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="h9ObnwM4JFQ_jB0peWJt-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="750" y="290" width="160" height="60" as="geometry" />
+        <mxCell id="h9ObnwM4JFQ_jB0peWJt-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="h9ObnwM4JFQ_jB0peWJt-5" target="h9ObnwM4JFQ_jB0peWJt-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h9ObnwM4JFQ_jB0peWJt-5" value="Save spreadsheet as report to S3 file storage" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="290" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="h9ObnwM4JFQ_jB0peWJt-6" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="960" y="300" width="40" height="40" as="geometry" />
